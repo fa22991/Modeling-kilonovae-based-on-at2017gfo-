@@ -1,0 +1,166 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2025-09-28'         / Written on 2025-09-28:03:09:38 (GMT)                                        by: www-data@vizier.astro.unistra.fr                        **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cds.unistra.fr                                Date: 2025-09-28T03:09:38 [V7.5.2]                                              In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'service_protocol=ASU' / IVOID of the protocol through which the data                                  was retrieved #                                INFO    = 'request_date=2025-09-28T03:09:38' / Query execution date #           INFO    = 'request=https://vizier.cds.unistra.fr/viz-bin/asu-fits?-oc.form=dec&'CONTINUE  '&-out.max=200&#out.form=FITS (ascii) Table&-out.all=2&-source=J/MNR&'CONTINUE  'AS/493/3379/tablea3&-order=I&-out=Time&-out=Lum&-out=Mag&-out=Filte&'CONTINUE  'r&-out.all=2&'      / Full request URL (POST) #                      INFO    = 'contact=cds-question@unistra.fr' / Email or URL to contact publisher                                  #                                              INFO    = 'server_software=7.5.2' / Software version #                          INFO    = 'publisher=CDS'      / Data centre that produced the VOTable #        INFO    = 'ivoid=ivo://cds.vizier/j/mnras/493/3379' / IVOID of underlying data                                   collection #                                                                                                                   INFO    = 'creator=Rossi A.'   / First author or institution #                                                                                                  INFO    = 'cites=bibcode:2020MNRAS.493.3379R' / Article or Data origin sources #                                                                                INFO    = 'original_date=2020' / Year of the article publication #                                                                                              INFO    = 'reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/493&'CONTINUE  '/3379   '           / Dataset landing page #                                                                                                         INFO    = 'citation=doi:10.26093/cds/vizier.74933379' / Dataset identifier that                                  can be used for citation #                                                                                                     INFO    = 'publication_date=2024-08-20' / Date of first publication in the data                                  centre #                                                                                                                       INFO    = 'rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html' /                                  Licence URI #                                           {\timesys }                                                                                                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'TABLE   '           / Ascii Table Extension (TAB and NEWLINE sep)    BITPIX  =                    8 / Character data                                 NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                   26 / Number of bytes per record                     NAXIS2  =                  165 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                    4 / Number of data fields (columns)                CDS-CAT = 'J/MNRAS/493/3379'   / Catalogue designation in CDS nomenclature               Comparison between GRB afterglows and AT2017gfo (Rossi+, 2020)         EXTNAME = 'J_MNRAS_493_3379_tablea3' / Identification of the table              CDS-NAME= 'J/MNRAS/493/3379/tablea3' / Table name in METAtab                             Rest-frame light curves of AT2017gfo                                   TBCOL1  =                    2 / UCD=time.epoch float: ........ offset=1        TFORM1  = 'F5.2    '           / Fortran Format                                 TTYPE1  = 'Time    '           / Observation time                               TUNIT1  = 'd       '           / day                                            TBCOL2  =                    8 / UCD=phys.luminosity float: ... offset=7        TFORM2  = 'E9.2    '           / Fortran Format                                 TTYPE2  = 'Lum     '           / Luminosity                                     TUNIT2  = '1e-07W.Hz**-1'      / 1e-07 Watt times Herz power-1                  TBCOL3  =                   18 / UCD=phys.magAbs float: ....... offset=17       TFORM3  = 'F6.2    '           / Fortran Format                                 TTYPE3  = 'Mag     '           / Absolute AB magnitude                          TUNIT3  = 'mag     '           / magnitude                                      TBCOL4  =                   25 / UCD=instr.setup;instr.filter char: offset=24   TFORM4  = 'A1      '           / Fortran Format                                 TTYPE4  = 'Filter  '           / Filter used                                    END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+ 0.64	 7.18e+26	-15.52	U
+ 0.99	 3.81e+26	-14.83	U
+ 1.49	 1.02e+26	-13.40	U
+ 2.43	 1.65e+25	-11.42	U
+ 3.47	 5.35e+24	-10.20	U
+ 4.41	 4.51e+24	-10.01	U
+ 5.45	 3.18e+24	 -9.64	U
+ 6.44	 2.99e+24	 -9.57	U
+ 7.43	 3.21e+24	 -9.65	U
+ 8.42	 3.11e+24	 -9.61	U
+ 9.41	 2.43e+24	 -9.34	U
+10.40	 2.31e+24	 -9.29	U
+11.39	 2.02e+24	 -9.14	U
+ 0.64	 1.00e+27	-15.88	B
+ 0.99	 6.16e+26	-15.35	B
+ 1.49	 2.85e+26	-14.52	B
+ 2.43	 6.15e+25	-12.85	B
+ 3.47	 2.30e+25	-11.79	B
+ 4.41	 1.39e+25	-11.24	B
+ 5.45	 1.06e+25	-10.94	B
+ 6.44	 7.80e+24	-10.61	B
+ 7.43	 7.72e+24	-10.60	B
+ 8.42	 7.93e+24	-10.63	B
+ 9.41	 7.95e+24	-10.63	B
+10.40	 7.80e+24	-10.61	B
+11.39	 6.04e+24	-10.33	B
+ 0.50	 1.15e+27	-16.03	V
+ 0.64	 1.01e+27	-15.89	V
+ 0.99	 7.36e+26	-15.55	V
+ 1.49	 5.00e+26	-15.13	V
+ 2.43	 1.63e+26	-13.91	V
+ 3.47	 6.75e+25	-12.95	V
+ 4.41	 4.58e+25	-12.53	V
+ 5.45	 2.66e+25	-11.94	V
+ 6.44	 1.68e+25	-11.44	V
+ 7.43	 1.64e+25	-11.42	V
+ 8.42	 1.66e+25	-11.43	V
+ 9.41	 1.22e+25	-11.09	V
+10.40	 1.27e+25	-11.13	V
+11.39	 8.13e+24	-10.65	V
+ 0.50	 1.33e+27	-16.19	R
+ 0.64	 1.19e+27	-16.07	R
+ 0.99	 8.94e+26	-15.76	R
+ 1.49	 6.50e+26	-15.41	R
+ 2.43	 2.83e+26	-14.51	R
+ 3.47	 1.53e+26	-13.84	R
+ 4.41	 9.37e+25	-13.31	R
+ 5.45	 5.98e+25	-12.82	R
+ 6.44	 3.83e+25	-12.34	R
+ 7.43	 3.22e+25	-12.15	R
+ 8.42	 2.79e+25	-11.99	R
+ 9.41	 2.05e+25	-11.66	R
+10.40	 2.03e+25	-11.65	R
+11.39	 1.02e+25	-10.90	R
+ 0.50	 1.12e+27	-16.01	I
+ 0.64	 1.05e+27	-15.93	I
+ 0.99	 8.92e+26	-15.76	I
+ 1.49	 6.79e+26	-15.46	I
+ 2.43	 4.08e+26	-14.91	I
+ 3.47	 2.51e+26	-14.38	I
+ 4.41	 1.94e+26	-14.10	I
+ 5.45	 1.32e+26	-13.68	I
+ 6.44	 8.36e+25	-13.19	I
+ 7.43	 6.32e+25	-12.88	I
+ 8.42	 4.65e+25	-12.55	I
+ 9.41	 3.63e+25	-12.28	I
+10.40	 2.81e+25	-12.00	I
+11.39	 1.30e+25	-11.17	I
+ 0.64	 1.05e+27	-15.93	g
+ 0.99	 6.77e+26	-15.46	g
+ 1.49	 3.49e+26	-14.74	g
+ 2.43	 8.76e+25	-13.24	g
+ 3.47	 3.36e+25	-12.19	g
+ 4.41	 2.16e+25	-11.71	g
+ 5.45	 1.51e+25	-11.33	g
+ 6.44	 9.70e+24	-10.85	g
+ 7.43	 9.31e+24	-10.80	g
+ 8.42	 1.07e+25	-10.95	g
+ 9.41	 9.27e+24	-10.80	g
+10.40	 9.20e+24	-10.79	g
+11.39	 6.30e+24	-10.38	g
+ 0.50	 1.29e+27	-16.16	r
+ 0.64	 1.15e+27	-16.03	r
+ 0.99	 8.50e+26	-15.70	r
+ 1.49	 6.22e+26	-15.36	r
+ 2.43	 2.43e+26	-14.35	r
+ 3.47	 1.18e+26	-13.56	r
+ 4.41	 6.90e+25	-12.98	r
+ 5.45	 4.64e+25	-12.54	r
+ 6.44	 3.03e+25	-12.08	r
+ 7.43	 2.65e+25	-11.94	r
+ 8.42	 2.46e+25	-11.86	r
+ 9.41	 2.05e+25	-11.66	r
+10.40	 1.89e+25	-11.57	r
+11.39	 9.51e+24	-10.82	r
+ 0.50	 1.27e+27	-16.14	i
+ 0.64	 1.16e+27	-16.04	i
+ 0.99	 9.28e+26	-15.80	i
+ 1.49	 6.70e+26	-15.44	i
+ 2.43	 3.82e+26	-14.83	i
+ 3.47	 2.31e+26	-14.29	i
+ 4.41	 1.64e+26	-13.92	i
+ 5.45	 1.06e+26	-13.44	i
+ 6.44	 6.66e+25	-12.94	i
+ 7.43	 5.15e+25	-12.66	i
+ 8.42	 3.82e+25	-12.33	i
+ 9.41	 3.12e+25	-12.11	i
+10.40	 2.55e+25	-11.89	i
+11.39	 1.24e+25	-11.12	i
+ 0.50	 9.68e+26	-15.84	z
+ 0.64	 9.43e+26	-15.81	z
+ 0.99	 8.76e+26	-15.74	z
+ 1.49	 7.50e+26	-15.57	z
+ 2.43	 4.71e+26	-15.06	z
+ 3.47	 2.88e+26	-14.53	z
+ 4.41	 2.37e+26	-14.32	z
+ 5.45	 1.67e+26	-13.94	z
+ 6.44	 1.13e+26	-13.51	z
+ 7.43	 8.48e+25	-13.20	z
+ 8.42	 6.05e+25	-12.83	z
+ 9.41	 4.48e+25	-12.51	z
+10.40	 3.57e+25	-12.26	z
+11.39	 1.81e+25	-11.52	z
+ 0.50	 9.32e+26	-15.80	J
+ 0.64	 9.37e+26	-15.81	J
+ 0.99	 9.40e+26	-15.81	J
+ 1.49	 7.41e+26	-15.55	J
+ 2.43	 6.91e+26	-15.48	J
+ 3.47	 5.15e+26	-15.16	J
+ 4.41	 4.18e+26	-14.93	J
+ 5.45	 3.09e+26	-14.60	J
+ 6.44	 1.88e+26	-14.06	J
+ 7.43	 1.47e+26	-13.79	J
+ 8.42	 1.05e+26	-13.43	J
+ 9.41	 7.08e+25	-13.00	J
+10.40	 5.78e+25	-12.78	J
+11.39	 2.97e+25	-12.06	J
+ 0.50	 8.45e+26	-15.70	H
+ 0.64	 8.56e+26	-15.71	H
+ 0.99	 8.76e+26	-15.74	H
+ 1.49	 6.77e+26	-15.46	H
+ 2.43	 7.77e+26	-15.61	H
+ 3.47	 6.38e+26	-15.39	H
+ 4.41	 5.47e+26	-15.22	H
+ 5.45	 4.50e+26	-15.01	H
+ 6.44	 2.97e+26	-14.56	H
+ 7.43	 2.40e+26	-14.33	H
+ 8.42	 1.76e+26	-13.99	H
+ 9.41	 1.24e+26	-13.61	H
+10.40	 9.18e+25	-13.29	H
+11.39	 4.76e+25	-12.57	H
+ 0.50	 5.27e+26	-15.18	K
+ 0.64	 5.60e+26	-15.25	K
+ 0.99	 6.14e+26	-15.35	K
+ 1.49	 5.53e+26	-15.24	K
+ 2.43	 6.81e+26	-15.46	K
+ 3.47	 6.61e+26	-15.43	K
+ 4.41	 5.87e+26	-15.30	K
+ 5.45	 6.01e+26	-15.33	K
+ 6.44	 4.16e+26	-14.93	K
+ 7.43	 3.95e+26	-14.87	K
+ 8.42	 3.23e+26	-14.65	K
+ 9.41	 2.57e+26	-14.41	K
+10.40	 2.02e+26	-14.14	K
+11.39	 1.11e+26	-13.49	K                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
